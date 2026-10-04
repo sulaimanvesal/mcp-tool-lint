@@ -1,0 +1,18 @@
+{
+  "tools": [
+    {
+      "name": "Do Stuff!",
+      "description": "does stuff",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "q": {"description": "a query"},
+          "mode": {"type": "weird", "enum": []}
+        },
+        "required": ["q", "missing_param"]
+      }
+    },
+    {"name": "Do Stuff!", "inputSchema": {"type": "array"}},
+    {"name": "delete_everything", "description": "Deletes everything quickly and easily for you."}
+  ]
+}
